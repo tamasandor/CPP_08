@@ -6,7 +6,7 @@
 /*   By: atamas <atamas@student.42wolfsburg.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/05 23:12:54 by atamas            #+#    #+#             */
-/*   Updated: 2025/05/07 06:28:10 by atamas           ###   ########.fr       */
+/*   Updated: 2025/07/09 17:05:27 by atamas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,16 @@
 
 int main()
 {
+	/* SUBJECT TEST */
+	Span spp = Span(5);
+	spp.addNumber(6);
+	spp.addNumber(3);
+	spp.addNumber(17);
+	spp.addNumber(9);
+	spp.addNumber(11);
+	std::cout << spp.shortestSpan() << std::endl;
+	std::cout << spp.longestSpan() << std::endl;
+
 	std::cout << "---TEST----\n" << "Normal:" << std::endl;
 	try
 	{
